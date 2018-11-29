@@ -12,17 +12,22 @@
 
 */
 
-// create an array to have even numbers
-// loop or iterate through the array
-// condition to check if value is even
-// and if it is even then push it to the even array
-// return the even array
+// Steps
+/*
+  - create an array to have even numbers
+  - loop or iterate through the array
+  - condition to check if value is even
+  - and if it is even then push it to the even array
+  - return the even array
+*/
 
 var arr = [1,3,4,6,7,8,1]
 
 function evenArr(arr) {
   var evenArray = []
 
+  // iterate in the array
+  // could also use a for loop or .filter
   arr.map((num) => {
     // % is it a reminder number from the division
     if (num % 2 == 0) {
@@ -35,27 +40,3 @@ function evenArr(arr) {
 }
 
 console.log(evenArr(arr))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
